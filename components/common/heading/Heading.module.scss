@@ -1,0 +1,7 @@
+@use '@/styles/abstracts/mixins' as *;
+
+.heading {
+    .page {
+        @include heading-style(1);
+    }
+}
