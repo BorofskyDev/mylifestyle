@@ -5,22 +5,32 @@
   --my-page: #{px-to-rem(32)};
   --mx-page: #{px-to-rem(16)};
 
+  --margin-header: #{px-to-ch(24)};
+
   @include breakpoint(md) {
     --my-page: #{px-to-rem(48)};
     --mx-page: #{px-to-rem(24)};
+
+    --margin-header: #{px-to-ch(32)};
   }
 
   @include breakpoint(lg) {
     --mx-page: #{px-to-rem(32)};
+
+    --margin-header: #{px-to-ch(40)};
   }
 
   @include breakpoint(xl) {
     --my-page: #{px-to-rem(64)};
     --mx-page: #{px-to-rem(48)};
+
+    --margin-header: #{px-to-ch(48)};
   }
 
-    @include breakpoint(2xl) {
-        --my-page: #{px-to-rem(80)};
-        --mx-page: #{px-to-rem(64)};
-    }
+  @include breakpoint(2xl) {
+    --my-page: #{px-to-rem(80)};
+    --mx-page: #{px-to-rem(64)};
+
+    --margin-header: #{px-to-ch(56)};
+  }
 }

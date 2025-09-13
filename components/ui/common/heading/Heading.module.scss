@@ -1,9 +1,9 @@
 @use '@/styles/abstracts/mixins' as *;
 
 .heading {
-    .page {
-        @include heading-style(1);
-    }
+  &.page {
+    @include heading-style(1);
+  }
 }
 
 // finish set up and begin working on main page

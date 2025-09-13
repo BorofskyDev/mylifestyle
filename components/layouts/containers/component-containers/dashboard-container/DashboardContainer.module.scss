@@ -1,0 +1,14 @@
+@use '@/styles/abstracts/mixins' as *;
+
+.dashboardContainer {
+    @include flex-col(center, center, var(--gap-3xl));
+}
+
+.mainSection {
+  margin-top: var(--margin-header);
+  @include flex-wrap(center, center, var(--gap-3xl));
+
+  .appContainer {
+    @include flex-col(center, center, var(--gap-md));
+  }
+}

@@ -1,0 +1,52 @@
+@use '@/styles/abstracts/mixins' as *;
+@use '@/styles/abstracts/functions' as *;
+
+:root {
+  --gap-xs: #{px-to-rem(4)};
+  --gap-sm: #{px-to-rem(8)};
+  --gap-md: #{px-to-rem(16)};
+  --gap-lg: #{px-to-rem(24)};
+  --gap-xl: #{px-to-rem(32)};
+  --gap-2xl: #{px-to-rem(40)};
+  --gap-3xl: #{px-to-rem(48)};
+
+  @include breakpoint(md) {
+    --gap-xs: #{px-to-rem(6)};
+    --gap-sm: #{px-to-rem(12)};
+    --gap-md: #{px-to-rem(20)};
+    --gap-lg: #{px-to-rem(28)};
+    --gap-xl: #{px-to-rem(36)};
+    --gap-2xl: #{px-to-rem(44)};
+    --gap-3xl: #{px-to-rem(56)};
+  }
+
+  @include breakpoint(lg) {
+    --gap-xs: #{px-to-rem(8)};
+    --gap-sm: #{px-to-rem(16)};
+    --gap-md: #{px-to-rem(24)};
+    --gap-lg: #{px-to-rem(32)};
+    --gap-xl: #{px-to-rem(40)};
+    --gap-2xl: #{px-to-rem(48)};
+    --gap-3xl: #{px-to-rem(64)};
+  }
+
+  @include breakpoint(xl) {
+    --gap-xs: #{px-to-rem(10)};
+    --gap-sm: #{px-to-rem(20)};
+    --gap-md: #{px-to-rem(28)};
+    --gap-lg: #{px-to-rem(36)};
+    --gap-xl: #{px-to-rem(48)};
+    --gap-2xl: #{px-to-rem(56)};
+    --gap-3xl: #{px-to-rem(72)};
+  }
+
+  @include breakpoint(2xl) {
+    --gap-xs: #{px-to-rem(12)};
+    --gap-sm: #{px-to-rem(24)};
+    --gap-md: #{px-to-rem(32)};
+    --gap-lg: #{px-to-rem(40)};
+    --gap-xl: #{px-to-rem(56)};
+    --gap-2xl: #{px-to-rem(64)};
+    --gap-3xl: #{px-to-rem(80)};
+  }
+}

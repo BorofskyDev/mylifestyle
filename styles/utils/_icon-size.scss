@@ -1,0 +1,37 @@
+@use '@/styles/abstracts/mixins' as *;
+@use '@/styles/abstracts/functions' as *;
+
+.icon-large {
+  width: #{px-to-rem(32)};
+  height: #{px-to-rem(32)};
+
+  @include breakpoint(md) {
+    width: #{px-to-rem(40)};
+    height: #{px-to-rem(40)};
+  }
+
+  @include breakpoint(lg) {
+    width: #{px-to-rem(48)};
+    height: #{px-to-rem(48)};
+  }
+
+  @include breakpoint(xl) {
+    width: #{px-to-rem(64)};
+    height: #{px-to-rem(64)};
+  }
+
+  @include breakpoint(2xl) {
+    width: #{px-to-rem(80)};
+    height: #{px-to-rem(80)};
+  }
+}
+
+.icon-medium {
+  width: #{px-to-rem(24)};
+  height: #{px-to-rem(24)};
+}
+
+.icon-small {
+  width: #{px-to-rem(16)};
+  height: #{px-to-rem(16)};
+}

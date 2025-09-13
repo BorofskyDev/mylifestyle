@@ -5,7 +5,6 @@
   display: inline;
   max-width: fit-content;
   font-family: var(--font-atkinson-mono);
-  color: var(--text-link);
   font-weight: var(--fw-bold);
   transition: var(--transition-main);
   font-size: var(--fs-400);
@@ -25,7 +24,7 @@
     position: absolute;
     width: 100%;
     height: 1px;
-    background-color: var(--text-link);
+    background-color: currentColor;
     transition: var(--transition-main);
   }
 
@@ -42,12 +41,12 @@
 
   &:hover::before,
   &:focus-visible::before {
-    background-color: var(--text-link-hover);
+    background-color: currentColor;
   }
 
   &:hover::after,
   &:focus-visible::after {
-    background-color: var(--text-link-hover);
+    background-color: currentColor;
     right: 0;
     opacity: 1;
   }
