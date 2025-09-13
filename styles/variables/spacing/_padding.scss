@@ -1,0 +1,22 @@
+@use '@/styles/abstracts/mixins' as *;
+@use '@/styles/abstracts/functions' as *;
+
+:root {
+  --padding-page: #{px-to-rem(16)} #{px-to-rem(24)};
+
+  @include breakpoint(md) {
+    --padding-page: #{px-to-rem(24)} #{px-to-rem(44)};
+  }
+
+  @include breakpoint(lg) {
+    --padding-page: #{px-to-rem(32)} #{px-to-rem(64)};
+  }
+
+  @include breakpoint(xl) {
+    --padding-page: #{px-to-rem(48)} #{px-to-rem(96)};
+  }
+
+  @include breakpoint(2xl) {
+    --padding-page: #{px-to-rem(64)} #{px-to-rem(128)};
+  }
+}
