@@ -10,6 +10,8 @@
   --gap-2xl: #{px-to-rem(40)};
   --gap-3xl: #{px-to-rem(48)};
 
+  --section-gap: var(--gap-3xl);
+
   @include breakpoint(md) {
     --gap-xs: #{px-to-rem(6)};
     --gap-sm: #{px-to-rem(12)};

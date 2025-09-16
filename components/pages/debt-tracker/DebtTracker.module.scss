@@ -1,0 +1,19 @@
+@use '@/styles/abstracts/mixins' as *;
+@use '@/styles/abstracts/functions' as *;
+
+.debtTracker {
+  @include flex-col($gap: var(--gap-md));
+
+  @include breakpoint(lg) {
+    @include flex-row($gap: var(--gap-lg));
+  }
+}
+
+.actionSection {
+  @include flex-row($gap: var(--gap-3xl));
+}
+
+
+.btn {
+    @include flex-row($gap: var(--gap-sm));
+}
