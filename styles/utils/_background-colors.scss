@@ -1,0 +1,15 @@
+.btn-bg-ruby {
+    background-color: var(--ruby-400);
+
+    &:hover, &:focus-visible {
+        background-color: var(--ruby-100);
+    }
+}
+
+.btn-bg-emerald {
+    background-color: var(--emerald-400);
+
+    &:hover, &:focus-visible {
+        background-color: var(--emerald-100);
+    }
+}

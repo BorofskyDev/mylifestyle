@@ -1,0 +1,13 @@
+@use '@/styles/abstracts/mixins' as *;
+@use '@/styles/abstracts/functions' as *;
+
+.button {
+    &--primary {
+        @include button(
+            var(--padding-btn-lg),
+            var(--fs-400),
+            uppercase,
+          
+        )
+    }
+}

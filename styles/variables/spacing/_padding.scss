@@ -3,6 +3,7 @@
 
 :root {
   --padding-page: #{px-to-rem(16)} #{px-to-rem(24)};
+  --padding-btn-lg: #{px-to-rem(12)} #{px-to-rem(24)};
 
   @include breakpoint(md) {
     --padding-page: #{px-to-rem(24)} #{px-to-rem(44)};
@@ -10,6 +11,7 @@
 
   @include breakpoint(lg) {
     --padding-page: #{px-to-rem(32)} #{px-to-rem(64)};
+    --padding-btn-lg: #{px-to-rem(16)} #{px-to-rem(32)};
   }
 
   @include breakpoint(xl) {
@@ -18,5 +20,6 @@
 
   @include breakpoint(2xl) {
     --padding-page: #{px-to-rem(64)} #{px-to-rem(128)};
+    --padding-btn-lg: #{px-to-rem(20)} #{px-to-rem(40)};
   }
 }

@@ -1,0 +1,8 @@
+@use '@/styles/abstracts/functions' as *;
+
+:root {
+    --br-100: #{px-to-rem(2)};
+    --br-200: #{px-to-rem(4)};
+    --br-300: #{px-to-rem(6)};
+    --br-400: #{px-to-rem(8)};
+}

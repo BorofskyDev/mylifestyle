@@ -11,12 +11,12 @@ export function DashboardContainer() {
       </Heading>
       <section id='main' className={styles.mainSection}>
         <div className={styles.appContainer}>
-          <Icon path={icons.debt} className='icon-large stroke-emerald' />
-          <InternalLink href='/debt-tracker' className='text-emerald'>Go to Debt Tracker</InternalLink>
+          <Icon path={icons.debt} className='icon-large stroke-ruby' />
+          <InternalLink href='/debt-tracker' className='text-ruby'>Go to Debt Tracker</InternalLink>
         </div>
         <div className={styles.appContainer}>
-          <Icon path={icons.budget} className='icon-large stroke-sky' />
-          <InternalLink href='/budget-tracker' className='text-sky'>Go to Budget Tool</InternalLink>
+          <Icon path={icons.budget} className='icon-large stroke-emerald' />
+          <InternalLink href='/budget-tracker' className='text-emerald'>Go to Budget Tool</InternalLink>
         </div>
         <div className={styles.appContainer}>
           <Icon path={icons.jobSearch} className='icon-large stroke-orange' />

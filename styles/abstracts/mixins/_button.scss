@@ -1,0 +1,27 @@
+
+
+@mixin button(
+  $padding,
+  $font-size,
+  $text-transform,
+  
+) {
+  position: relative;
+  padding: $padding;
+  border-radius: var(--br-200);
+  font-family: var(--font-atkinson-mono);
+  font-size: $font-size;
+  font-weight: var(--fw-bold);
+  text-transform: $text-transform;
+  transition: var(--transition-main);
+  overflow: hidden;
+  z-index: 1;
+
+  &:focus-visible,
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: var(--shadow-btn);
+  }
+
+
+}
